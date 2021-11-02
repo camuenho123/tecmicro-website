@@ -1,0 +1,571 @@
+<html>
+
+    <head>
+      <title>Tecmicro</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+
+    <!--- NAV BAR -->
+    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+        <div class="uk-container">
+            <nav class="uk-navbar-container" uk-navbar>
+
+                <!--- NAV BAR DIREITA-->
+
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="Home.html">
+                        <img src="images/logo_micro.png" alt="Expo Vendas">
+                    </a>
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#" class="ev-text-menu1">
+                                <span class="uk-icon uk-margin-small-right" uk-icon="icon: menu"></span>
+                                Categorias
+                            </a>
+                            <div class="uk-navbar-dropdown MainuserPerfil UserCateg">
+                                <div class="uk-card uk-card-default uk-width-1-2@m">
+
+                                    <div class="uk-card-body ">
+                                        <ul class="opcoesUl usercateg">
+                                            <li><a href=""> Electromesticos</a></li>
+                                            <li><a href=""> Arduino</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                            <li><a href=""> Lorem ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <div class="uk-navbar-dropdown">
+                                    
+                                    <ul class="uk-nav uk-navbar-dropdown-nav uk-list uk-list-divider">
+                                        <li><a href="" uk-icon="chevron-right">Categorias</a></li> 
+                                        <li>List item 2</li>
+                                        <li>List item 3</li>
+                                    </ul>
+                                </div> -->
+                        </li>
+                    </ul>
+                </div>
+
+                <!--- NAV BAR ESQUERDA-->
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                     <li class="uk-active">
+                            <a class="ev-text-menu2" href="#">Quem somos</a>
+                            
+                        <li>
+                        <li class="uk-active">
+                            <a class="ev-text-menu2" href="#">Aprender</a>
+                            <div class="uk-navbar-dropdown MainuserPerfil UserCateg">
+                                <div class="uk-card uk-card-default uk-width-1-2@m">
+
+                                    <div class="uk-card-body ">
+                                        <ul class="opcoesUl usercateg">
+                                            <li><a href=""> Dicas de Arduino</a></li>
+                                            <li><a href=""> Portal de  Membros</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        <li>
+                            <a class="ev-text-menu2" href="#">
+                                <img src="images/svg/cartshopping.svg" width="26" height="26" uk-svg>
+                            </a>
+                            <div class="uk-navbar-dropdown UserNotificacoes ">
+                                <a href="carrinho.html">
+                                    <h6 class="userNotifVerTodas userfavorites  ">Ver Todos</h6>
+                                </a>
+                                <h4 class="UserFavoritestext">Carrinhos de Compras</h4>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <i class="icon icon-trash-1 iconlixeCart"></i>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <i class="icon icon-trash-1 iconlixeCart"></i>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <i class="icon icon-trash-1 iconlixeCart"></i>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <a href="carrinho.html"><button class="uk-button uk-button-secondary uk-width-1-1 ev-carrinho-button"> <i
+                                        class="fas fa-cart-arrow-down"></i> FINALIZAR COMPRAS</button></a> 
+                            </div>
+                        </li>
+                        <li>
+                            <a class="ev-text-menu2" href="#">
+                                <img src="images/svg/favorite.svg" width="26" height="26" uk-svg>
+                            </a>
+                            <div class="uk-navbar-dropdown UserNotificacoes">
+                                <h6 class="userNotifVerTodas userfavorites  ">Limpar listas</h6>
+                                <a href="meusFavoritos.html">
+                                    <h4 class="UserFavoritestext">favoritos</h4>
+                                </a>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+                                    <header class="uk-comment-header">
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto userdimesaodafotoFav"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Lorem ipsum dolor sit amet</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <a href="carrinho.html"><button class="uk-button uk-button-secondary uk-width-1-1 ev-carrinho-button"> <i
+                                        class="fas fa-cart-arrow-down"></i> ADICIONAR AO CARRINHO</button></a>
+
+                                    
+                            </div>
+                        </li>
+                        <li>
+                            <a class="ev-text-menu2" href="#">
+                                <img src="images/svg/notification.svg" width="26" height="26" uk-svg>
+                            </a>
+                            <div class="uk-navbar-dropdown UserNotificacoes  ">
+                                <a href="Notificacoes.html">
+                                    <h6 class="userNotifVerTodas">Ver todas</h6>
+                                </a>
+                                <h4 class="userNotifText">Notificacoes</h4>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+
+                                    <header class="uk-comment-header">
+                                        <span class="DataRecado">11/11/2020</span>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Universidade Metodista Angola</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                    Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                    voluptatibus quidem molestias commodi! Repudiandae,
+                                                    nostrum perferendis in id dolor maiores possimus. Ab, cumque?
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+
+                                    <header class="uk-comment-header">
+                                        <span class="DataRecado">11/11/2020</span>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Universidade Metodista Angola</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                    Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                    voluptatibus quidem molestias commodi! Repudiandae,
+                                                    nostrum perferendis in id dolor maiores possimus. Ab, cumque?
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                                <div class="ev-filtro-produtos ev-notifica-meusProd UsercaixadeRecados ">
+
+                                    <header class="uk-comment-header">
+                                        <span class="DataRecado">11/11/2020</span>
+                                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+
+                                            <div class="uk-width-auto">
+                                                <a href="#"> <img
+                                                        class="uk-comment-avatar ev-user-main-dados-img userdimesaodafoto"
+                                                        src="images/publi-unitel2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="uk-width-expand conteinerUserNotif ">
+                                                <h5><a class="uk-link-reset" href="#"><b> Universidade Metodista Angola</b> </a>
+                                                </h5>
+                                                <h6 class="userTextNotif">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                    Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                    voluptatibus quidem molestias commodi! Repudiandae,
+                                                    nostrum perferendis in id dolor maiores possimus. Ab, cumque?
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <a class="ev-text-menu2" href="#">
+                                <img src="images/svg/users.svg" width="26" height="26" uk-svg>
+                            </a>
+                            <!--  <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><p class="evtxtDown">ÁREA RESTRITA</p></li>
+                                        <li><a href="#">ENTRAR</a></li>
+                                        <li><a href="#">CADASTRAR</a></li>
+                                    </ul>
+                                </div>-->
+
+                            <div class="uk-navbar-dropdown MainuserPerfil">
+                                <div class="uk-card uk-card-default uk-width-1-2@m">
+                                    <div class="uk-card-header conteinerUserPerfil ">
+                                        <div class="uk-grid-small " uk-grid>
+
+                                            <div class="uk-width-auto">
+                                                <img class="uk-comment-avatar imageUserPerfil" src="images/avatar.jpg" width="50"
+                                                    height="50" alt="">
+                                            </div>
+                                            <div class="uk-width-expand TextUserPeril">
+                                                <h6 class=" "> <a class="uk-link-reset" href="#"><b> Pedro Jose Alves de Candido
+                                                            angolas</b> </a></h6>
+                                                <div class="uk-width-expand TextUserPerilemail">
+                                                    <h6 class=" "> <a class="uk-link-reset" href="#"> pedro.candido@gmail.ao</a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body ">
+                                        <ul class="opcoesUl">
+                                            <li><a href="meusPedidos.html"> Meus Pedidos</li></a>
+                                            <li> <a href="meusFavoritos.html"> Meus Favoritos</li></a>
+                                            <li> <a href="carrinho.html">Carrinho de Compras</li></a>
+                                            <li> <a href="Recados.html">Recados</li></a>
+                                            <li><a href="Notificacoes.html"> Notificações</li></a>
+                                            <li><a href="DefConta.html"> Configuração de Contas</li></a>
+                                            <li><a href="#"> Ajuda</li></a>
+                                            <li><a href="#"> Teminar Secção</li></a>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+   </div>
+    <!-- FIM NAV BAR-->
+
+
+    <!-- INCIO MAIN PRODTUDOS  -->
+
+    <div class="ev-main-produtos">
+        <div class="uk-text-center" uk-grid>
+            <div class="uk-width-1-3@m">
+                <article class="uk-comment uk-comment-primary">
+                    <header class="uk-comment-header">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar ev-user-main-dados-img" src="images/avatar.jpg" width="100" height="100" alt="" >
+                            </div>
+                            <div class="uk-width-expand ev-nomeUser-Meusdados-div">
+                                <h4 class="uk-comment-title uk-margin-remove ev-nomeUser-Meusdados121"><a class="uk-link-reset" href="#">Alberto Lohali Jeremias</a></h4>
+                                
+                            </div>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <ul class="uk-list ev-ul-meusdados-conf">
+                           <li><i class="icon icon-external-link icon-InfElect"></i> <a href="meusPedidos.html"> Meus pedidos</li></a>
+                           <li><i class="icon icon-heart-o icon-InfElect"></i> <a href="meusFavoritos.html"> Meus favoritos</li></a>
+                          <li><i class="icon icon-shopping-cart icon-InfElect"></i> <a href="carrinho.html">Carrinho de compras</li></a> 
+                           <li><i class="icon icon-envelope  icon-InfElect"></i> <a href="Recados.html">Recados</li></a>
+                            <li><i class="icon icon-bell-o icon-InfElect"></i><a href="Notificacoes.html"> Notificações</li></a>
+                            <li><i class="icon icon-cogs icon-InfElect"></i><a href="DefConta.html"> Configuração de Contas</li></a>
+                            <li><i class="icon icon-columns icon-InfElect"></i><a href="#"> Ajuda</li></a>
+                            <li><i class="icon icon-sign-out icon-InfElect"></i><a href="#"> Teminar secção</li></a>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="uk-width-expand@m">
+                <div class="uk-card uk-card-default uk-card-body ev-body-meusPedidos">
+                    <div class="uk-width-1-4@m uk-first-column ev-body-meusPedidos2">
+                        <div>
+
+                            <h1 class="uk-heading-bullet ev-main-produtos-titulo22"> Meus favoritos </h1>
+                            <a href=""><button class=" cleanAllRecados"> Limpar todos</button></a>
+
+                            <!-- primira linha de recado -->
+                            <a href="DetalhesProduct.html">
+                                </a><div class="ev-filtro-produtos ev-notifica-meusProd caixadeRecados "><a href="DetalhesProduct.html">
+                                    </a><header class="uk-comment-header"><a href="DetalhesProduct.html">
+                                        <span class="DataRecado">11/11/2020</span>
+                                        </a><div class="uk-grid-medium uk-flex-middle uk-grid" uk-grid=""><a href="DetalhesProduct.html" class="uk-first-column">
+
+                                            <div class="uk-width-auto">
+                                                <img class="uk-comment-avatar ev-user-main-dados-img dimesaodafoto" src="images/publi-unitel2.jpg" alt="">
+                                            </div>
+                                            </a><div class="uk-width-expand "><a href="DetalhesProduct.html">
+                                                </a><h5 class="uk-comment-title uk-margin-remove ev-nomeUser-Meusdados"><a href="DetalhesProduct.html">
+                                                    </a><a class="uk-link-reset ev-meusFavoritos" href="#"> <b>Universidade Metodista
+                                                            Angola</b> </a></h5>
+                                                <h6 class="uk-margin-remove recadoTexta ">Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing elit.
+                                                    Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                    voluptatibus quidem molestias commodi! Repudiandae,
+                                                </h6>
+                                                <i class="icon icon-trash-1 ev-icon-lixo" aria-hidden="true"></i>
+                                                <a href="carrinho.html">
+                                                    <button class="uk-button uk-width-1-1 uk-margin-small-bottom ev-button-meuFavorito ">
+                                                    ADD CARRINHO</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                            
+                            <!-- fim da primira linha de recado -->
+                            <!-- segunda linha de recado -->
+                            <div class="ev-filtro-produtos ev-notifica-meusProd caixadeRecados ">
+                                <header class="uk-comment-header">
+                                    <span class="DataRecado">11/11/2020</span>
+                                    <div class="uk-grid-medium uk-flex-middle uk-grid" uk-grid="">
+
+                                        <div class="uk-width-auto uk-first-column">
+                                            <img class="uk-comment-avatar ev-user-main-dados-img dimesaodafoto" src="images/publi-unitel2.jpg" alt="">
+                                        </div>
+                                        <div class="uk-width-expand ">
+                                            <h5 class="uk-comment-title uk-margin-remove ev-nomeUser-Meusdados">
+                                                <a class="uk-link-reset ev-meusFavoritos" href="#"> <b>Universidade Metodista Angola</b>
+                                                </a></h5>
+                                            <h6 class="uk-margin-remove recadoTexta ">Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                voluptatibus quidem molestias commodi! Repudiandae,
+                                            </h6>
+                                            <i class="icon icon-trash-1 ev-icon-lixo" aria-hidden="true"></i>
+                                            <button class="uk-button uk-width-1-1 uk-margin-small-bottom ev-button-meuFavorito">
+                                                ADD CARRINHO</button>
+                                        </div>
+                                    </div>
+                                </header>
+                            </div>
+                            <!-- fim da segundalinha de Notificação -->
+                            <!-- terceira linha de Notificação -->
+                            <div class="ev-filtro-produtos ev-notifica-meusProd caixadeRecados ">
+                                <header class="uk-comment-header">
+                                    <span class="DataRecado">11/11/2020</span>
+                                    <div class="uk-grid-medium uk-flex-middle uk-grid" uk-grid="">
+
+                                        <div class="uk-width-auto uk-first-column">
+                                            <img class="uk-comment-avatar ev-user-main-dados-img dimesaodafoto" src="images/publi-unitel2.jpg" alt="">
+                                        </div>
+                                        <div class="uk-width-expand ">
+                                            <h5 class="uk-comment-title uk-margin-remove ev-nomeUser-Meusdados">
+                                                <a class="uk-link-reset ev-meusFavoritos " href="#"> <b>Universidade Metodista Angola</b>
+                                                </a></h5>
+                                            <h6 class="uk-margin-remove recadoTexta ">Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Quae sapiente odit eaque suscipit natus aspernatur beatae,
+                                                voluptatibus quidem molestias commodi! Repudiandae,
+                                            </h6>
+                                            <i class="icon icon-trash-1 ev-icon-lixo" aria-hidden="true"></i>
+                                            <button class="uk-button uk-width-1-1 uk-margin-small-bottom ev-button-meuFavorito">
+                                                ADD CARRINHO</button>
+                                        </div>
+                                    </div>
+                                </header>
+                            </div>
+                            <!-- fim da terceira  linha de Notificação -->
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FIM MAIN PRODTUDOS  -->
+
+    <!-- FOOTER -->
+    <div class="">
+        <div class="uk-section uk-section-muted">
+            <div class="uk-container boxmain">
+                <!-- IMAGE FOOTER -->
+                <img src="images/svg/logo.svg" alt="Expo Vendas">
+                <div class="evfooter uk-grid-match uk-child-width-1-3@m uk-grid" uk-grid="">
+                    <!-- SECTION FOOTER -->
+                    <div class="ev-boxfooter uk-first-column">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor, consectetur adipiscing elit,
+                            sed do eiusmod consectetur adipiscing elit, sed do eiusmod tempor,
+                            consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <!-- SECTION FOOTER -->
+                    <div class="ev-boxfooter">
+                        <h4>HELLO WORLD</h4>
+                        <ul class="uk-list uk-list-collapse">
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                        </ul>
+                    </div>
+                    <!-- SECTION FOOTER -->
+                    <div class="ev-boxfooter">
+                        <h4>HELLO WORLD</h4>
+                        <ul class="uk-list uk-list-collapse">
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                        </ul>
+                        <div class="ev-iconsfooter">
+                            <a href="" class="uk-icon-button uk-margin-small-right uk-icon" uk-icon="twitter"><svg
+                                    width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                    data-svg="twitter">
+                                    <path
+                                        d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74">
+                                    </path>
+                                </svg></a>
+                            <a href="" class="uk-icon-button uk-margin-small-right uk-icon" uk-icon="facebook"><svg
+                                    width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                    data-svg="facebook">
+                                    <path
+                                        d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z">
+                                    </path>
+                                </svg></a>
+                            <a href="" class="uk-icon-button uk-icon" uk-icon="google-plus"><svg width="20" height="20"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="google-plus">
+                                    <path
+                                        d="M12.9,9c0,2.7-0.6,5-3.2,6.3c-3.7,1.8-8.1,0.2-9.4-3.6C-1.1,7.6,1.9,3.3,6.1,3c1.7-0.1,3.2,0.3,4.6,1.3 c0.1,0.1,0.3,0.2,0.4,0.4c-0.5,0.5-1.2,1-1.7,1.6c-1-0.8-2.1-1.1-3.5-0.9C5,5.6,4.2,6,3.6,6.7c-1.3,1.3-1.5,3.4-0.5,5 c1,1.7,2.6,2.3,4.6,1.9c1.4-0.3,2.4-1.2,2.6-2.6H6.9V9H12.9z">
+                                    </path>
+                                    <polygon points="20,9 20,11 18,11 18,13 16,13 16,11 14,11 14,9 16,9 16,7 18,7 18,9">
+                                    </polygon>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
