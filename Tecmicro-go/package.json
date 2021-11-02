@@ -1,0 +1,22 @@
+{
+  "name": "tecmicro-go",
+  "version": "1.0.0",
+  "description": "Tecmicro website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camuenho123/tecmicro-website.git"
+  },
+  "keywords": [
+    "Javadev"
+  ],
+  "author": "Laurindo Camuenho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camuenho123/tecmicro-website/issues"
+  },
+  "homepage": "https://github.com/camuenho123/tecmicro-website#readme"
+}
